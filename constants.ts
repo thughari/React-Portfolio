@@ -28,7 +28,7 @@ export const PROJECTS_DATA: Project[] = [
     title: 'Real Time Chat Application',
     description: 'A simple group chat application built with Angular and web sockets',
     longDescription: 'This suite provides a user-friendly interface for interacting with the Gemini Pro model, enabling users to generate creative text formats, translate languages, write different kinds of creative content, and answer questions informatively. The project showcases skills in API integration, frontend development with React, and backend orchestration. (Note: API key for Gemini would be managed via environment variables in a real deployment).',
-    imageUrl: './assets/images/chat-window.png',
+    imageUrl: './images/chat-window.png',
     technologies: ['React', 'TypeScript', 'Node.js', 'Gemini API', 'Tailwind CSS', 'Express.js'],
     liveLink: 'https://thughari.github.io/Socket-UI/',
     repoLink: 'https://github.com/thughari/Socket-UI',
@@ -38,7 +38,7 @@ export const PROJECTS_DATA: Project[] = [
     id: 'mental-health-app',
     title: 'AI Enabled Mental Health Application',
     description: 'A secure (uses JWT) web application developed to assist people suffering from mental health issues. It collects users\' health data, analyzes it, and acts accordingly.',
-    imageUrl: './assets/images/mental-health.jpg',
+    imageUrl: './images/mental-health.jpg',
     technologies: ['React', 'Node.js', 'MongoDB', 'Express.js', 'Stripe API', 'Redux'],
     liveLink: 'https://www.linkedin.com/feed/update/urn:li:activity:7313487738039611392/',
     repoLink: 'https://github.com/thughari/Mental-Health-App-Backend',
@@ -48,7 +48,7 @@ export const PROJECTS_DATA: Project[] = [
     id: 'music-player',
     title: 'Music Player',
     description: 'A simple music player built with HTML CSS and JS',
-    imageUrl: './assets/images/music-player.png',
+    imageUrl: './images/music-player.png',
     technologies: ['Vue.js', 'Firebase', 'Chart.js', 'OAuth', 'GitHub API', 'Jira API'],
     liveLink: 'https://thughari.github.io/music-player/',
     repoLink: 'https://github.com/thughari/music-player',
@@ -59,7 +59,7 @@ export const PROJECTS_DATA: Project[] = [
     title: 'Collaborative Editor',
     description: 'An online collaborative editor where you can share the written notes and invite collaborators to your article',
     longDescription: 'Built with React Native, TaskMaster offers intuitive task creation, assignment, progress tracking, and real-time notifications. It features offline support and synchronization across devices.',
-    imageUrl: './assets/images/collab-editor.png',
+    imageUrl: './images/collab-editor.png',
     technologies: ['React Native', 'Firebase Realtime Database', 'Expo', 'Push Notifications'],
     liveLink: 'https://thughari.github.io/Collaborative-Editor-UI/',
     repoLink: 'https://github.com/thughari/CollabEditor',
@@ -169,7 +169,7 @@ export const HERO_PROPS = {
         text: "Get In Touch",
         href: "#contact"
     },
-    profileImageUrl: "assets/images/hari.jpg"
+    profileImageUrl: "./images/hari.jpg"
 };
 
 interface HighlightItem {
