@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#4f46e5', // indigo-600
+              'brand-secondary': '#06b6d4', // cyan-500
+              'brand-accent': '#d946ef', // fuchsia-500
+              'dark-bg': '#083344', // UPDATED: Was gray-950 (#030712), now Tailwind cyan-950 for a cooler, modern dark bg
+              'dark-card': '#164e63', // UPDATED: Was gray-800 (#1f2937), now Tailwind cyan-900 for cooler, modern cards
+              'dark-text': '#f3f4f6', // gray-100
+              'dark-text-secondary': '#9ca3af', // gray-400
+            },
+            animation: {
+              'fade-in-up': 'fadeInUp 0.5s ease-out forwards',
+              'subtle-pulse': 'subtlePulse 2s infinite ease-in-out',
+            },
+            keyframes: {
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              subtlePulse: {
+                '0%, 100%': { opacity: '1' },
+                '50%': { opacity: '.7' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-dark-bg text-dark-text antialiased">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html><link rel="stylesheet" href="index.css">
+<script src="index.tsx" type="module"></script>
