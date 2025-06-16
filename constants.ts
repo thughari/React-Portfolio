@@ -63,7 +63,7 @@ export const PROJECTS_DATA: Project[] = [
     technologies: ['React Native', 'Firebase Realtime Database', 'Expo', 'Push Notifications'],
     liveLink: 'https://thughari.github.io/Collaborative-Editor-UI/',
     repoLink: 'https://github.com/thughari/CollabEditor',
-    category: "Mobile App"
+    category: "Web App"
   }
 ];
 
