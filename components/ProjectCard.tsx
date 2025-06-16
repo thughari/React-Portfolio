@@ -7,7 +7,6 @@ interface ProjectCardProps {
 }
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
-  // Make the card clickable for demo if liveLink exists
   const handleCardClick = () => {
     if (project.liveLink && project.liveLink !== '#') {
       window.open(project.liveLink, '_blank', 'noopener,noreferrer');
